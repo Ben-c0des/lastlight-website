@@ -1,0 +1,262 @@
+<!-- privacy.html -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy Policy - LastLight</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <nav class="nav">
+        <div class="container">
+            <div class="nav-content">
+                <h1 class="nav-logo">LastLight</h1>
+                <div class="nav-links">
+                    <a href="index.html">Home</a>
+                    <a href="support.html">Support</a>
+                    <a href="privacy.html">Privacy</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <main class="container">
+        <section class="page-header">
+            <h2>Privacy Policy</h2>
+            <p class="last-updated">Last Updated: October 31, 2025</p>
+        </section>
+
+        <section class="privacy-content">
+            <div class="privacy-section">
+                <h3>Introduction</h3>
+                <p>LastLight ("we," "our," or "the app") is committed to protecting your privacy. This Privacy Policy
+                    explains how LastLight handles information when you use our iOS application.</p>
+                <p><strong>In short: LastLight does not collect, store, transmit, or sell any of your personal data. All
+                        data processing happens locally on your device.</strong></p>
+            </div>
+
+            <div class="privacy-section">
+                <h3>Information We Do Not Collect</h3>
+                <p>LastLight does not collect, store, or transmit any personally identifiable information, including but
+                    not limited to:</p>
+                <ul>
+                    <li>Your name, email address, or contact information</li>
+                    <li>Device identifiers or advertising IDs</li>
+                    <li>Usage analytics or app behavior data</li>
+                    <li>Crash reports or diagnostic data</li>
+                    <li>Your precise location history or tracking data</li>
+                </ul>
+            </div>
+
+            <div class="privacy-section">
+                <h3>Location Data</h3>
+                <p>LastLight requires location information to calculate accurate sunset and twilight times for your
+                    area. Here's how we handle location data:</p>
+
+                <h4>How Location Data is Used</h4>
+                <ul>
+                    <li>Location coordinates are used solely to calculate sun times for your area</li>
+                    <li>Location data is processed entirely on your device</li>
+                    <li>We do not store, transmit, or share your location with any third parties</li>
+                    <li>Location coordinates are only used at the moment of calculation and are not retained</li>
+                </ul>
+
+                <h4>Location Methods</h4>
+                <p>You can choose from three location determination methods:</p>
+                <ul>
+                    <li><strong>Device Location:</strong> Uses your iPhone's GPS to determine your current location.
+                        This is the most accurate method. Location permissions are requested through iOS's standard
+                        permission dialog.</li>
+                    <li><strong>Automatic (IP-Based):</strong> Estimates your location based on your IP address using a
+                        third-party service (ipapi.co). This method provides city-level accuracy without requiring
+                        location permissions.</li>
+                    <li><strong>Manual Address:</strong> Allows you to enter any address or location manually. The
+                        address is geocoded to coordinates using Apple's geocoding service.</li>
+                </ul>
+
+                <h4>Location Permissions</h4>
+                <ul>
+                    <li>If you choose Device Location, iOS will prompt you to grant location access</li>
+                    <li>You can grant "While Using the App" or "Always" permission</li>
+                    <li>"Always" permission enables background updates to keep your widgets current</li>
+                    <li>You can change or revoke location permissions at any time in iOS Settings</li>
+                    <li>If you prefer not to grant location permissions, you can use the IP-Based or Manual Address
+                        methods instead</li>
+                </ul>
+            </div>
+
+            <div class="privacy-section">
+                <h3>Data Storage</h3>
+                <p>All data in LastLight is stored locally on your device:</p>
+                <ul>
+                    <li>Your location method preference and coordinates are stored locally using iOS App Groups</li>
+                    <li>Widget configuration settings (alignment, bold fonts, icon colors) are stored locally</li>
+                    <li>Cached sun time data is stored locally to display in widgets</li>
+                    <li>This data is never transmitted to our servers or any third parties</li>
+                    <li>This data is accessible only to LastLight and its widgets</li>
+                    <li>If you delete the app, all stored data is permanently removed from your device</li>
+                </ul>
+            </div>
+
+            <div class="privacy-section">
+                <h3>Third-Party Services</h3>
+                <p>LastLight uses the following third-party services to provide its core functionality:</p>
+
+                <h4>Sunrise-Sunset.org API</h4>
+                <ul>
+                    <li>Used to calculate sunrise, sunset, and twilight times</li>
+                    <li>We send only your latitude and longitude coordinates to this service</li>
+                    <li>No personally identifiable information is transmitted</li>
+                    <li>This service does not track or store your information</li>
+                    <li>API Documentation: <a href="https://sunrise-sunset.org/api" target="_blank"
+                            rel="noopener">sunrise-sunset.org/api</a></li>
+                </ul>
+
+                <h4>ipapi.co (Optional)</h4>
+                <ul>
+                    <li>Used only if you select the "Automatic (IP-Based)" location method</li>
+                    <li>Estimates your location from your IP address</li>
+                    <li>We do not send any personal information to this service</li>
+                    <li>Privacy Policy: <a href="https://ipapi.co/privacy" target="_blank"
+                            rel="noopener">ipapi.co/privacy</a></li>
+                </ul>
+
+                <h4>Apple Geocoding Service</h4>
+                <ul>
+                    <li>Used only if you enter a manual address</li>
+                    <li>Converts addresses to coordinates using Apple's built-in iOS service</li>
+                    <li>Subject to Apple's Privacy Policy</li>
+                </ul>
+            </div>
+
+            <div class="privacy-section">
+                <h3>Widgets and Background Updates</h3>
+                <ul>
+                    <li>LastLight uses iOS WidgetKit to display widgets on your Lock Screen and Home Screen</li>
+                    <li>Widgets are updated using iOS Background Tasks at scheduled times</li>
+                    <li>Widget updates only fetch new sun time data; no tracking occurs</li>
+                    <li>All widget configuration is stored locally on your device</li>
+                </ul>
+            </div>
+
+            <div class="privacy-section">
+                <h3>Analytics and Advertising</h3>
+                <ul>
+                    <li>LastLight does not use any analytics services</li>
+                    <li>LastLight does not display advertisements</li>
+                    <li>LastLight does not collect usage data or behavior patterns</li>
+                    <li>LastLight does not use any tracking technologies</li>
+                </ul>
+            </div>
+
+            <div class="privacy-section">
+                <h3>Data Security</h3>
+                <p>Since LastLight does not collect or transmit your personal data, there is no central database or
+                    server that could be compromised. All data remains on your device and is protected by iOS's built-in
+                    security features, including:</p>
+                <ul>
+                    <li>iOS App Sandbox protection</li>
+                    <li>Encrypted device storage</li>
+                    <li>Secure App Group container for widget data sharing</li>
+                </ul>
+            </div>
+
+            <div class="privacy-section">
+                <h3>Children's Privacy</h3>
+                <p>LastLight does not knowingly collect any data from children under the age of 13. The app does not
+                    collect personal information from any users, regardless of age. LastLight is suitable for users of
+                    all ages.</p>
+            </div>
+
+            <div class="privacy-section">
+                <h3>Your Rights and Choices</h3>
+                <p>You have complete control over your data in LastLight:</p>
+                <ul>
+                    <li><strong>Location Permissions:</strong> You can change location permissions at any time through
+                        iOS Settings → Privacy & Security → Location Services → LastLight</li>
+                    <li><strong>Location Method:</strong> You can switch between Device Location, IP-Based, and Manual
+                        Address at any time in the app's Location Settings</li>
+                    <li><strong>Data Deletion:</strong> To delete all data, simply delete the LastLight app from your
+                        device. This will permanently remove all stored preferences and cached data</li>
+                </ul>
+            </div>
+
+            <div class="privacy-section">
+                <h3>International Users</h3>
+                <p>LastLight is available worldwide and works in any country or region. Since all data processing occurs
+                    locally on your device, there are no international data transfers involved. The only data
+                    transmitted is your coordinates to the Sunrise-Sunset.org API for calculation purposes.</p>
+            </div>
+
+            <div class="privacy-section">
+                <h3>Changes to This Privacy Policy</h3>
+                <p>We may update this Privacy Policy from time to time to reflect changes in the app or legal
+                    requirements. When we make changes, we will update the "Last Updated" date at the top of this
+                    policy. We encourage you to review this policy periodically.</p>
+                <p>Continued use of LastLight after any changes constitutes acceptance of the updated Privacy Policy.
+                </p>
+            </div>
+
+            <div class="privacy-section">
+                <h3>California Privacy Rights (CCPA)</h3>
+                <p>Under the California Consumer Privacy Act (CCPA), California residents have specific rights regarding
+                    their personal information. However, since LastLight does not collect, sell, or share any personal
+                    information, these rights do not apply. We do not:</p>
+                <ul>
+                    <li>Collect personal information</li>
+                    <li>Sell personal information</li>
+                    <li>Share personal information with third parties for their marketing purposes</li>
+                </ul>
+            </div>
+
+            <div class="privacy-section">
+                <h3>European Union Users (GDPR)</h3>
+                <p>For users in the European Union, the General Data Protection Regulation (GDPR) provides certain
+                    rights regarding personal data. Since LastLight does not collect or process personal data as defined
+                    by GDPR, these rights do not apply. Specifically:</p>
+                <ul>
+                    <li>We are not a data controller or processor of your personal data</li>
+                    <li>Location coordinates used for calculations are not stored or processed beyond the immediate
+                        calculation</li>
+                    <li>No personal data is transferred outside the EU</li>
+                </ul>
+            </div>
+
+            <div class="privacy-section">
+                <h3>Contact Us</h3>
+                <p>If you have any questions or concerns about this Privacy Policy or LastLight's privacy practices,
+                    please contact us:</p>
+                <p class="contact-info">
+                    Email: <a href="mailto:ben266696687@gmail.com">ben266696687@gmail.com</a><br>
+                    Website: <a
+                        href="https://Ben-c0des.github.io/lastlight-website">https://Ben-c0des.github.io/lastlight-website</a>
+                </p>
+            </div>
+
+            <div class="privacy-section">
+                <h3>Summary</h3>
+                <p><strong>To summarize: LastLight is designed with privacy as a fundamental principle. We don't collect
+                        your data, we don't track you, we don't sell your information, and we don't display ads. All
+                        calculations happen on your device. Your location is used only for sun time calculations and is
+                        never stored or transmitted beyond what's necessary for that calculation.</strong></p>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <p>&copy; 2025 LastLight. All rights reserved.</p>
+                <div class="footer-links">
+                    <a href="support.html">Support</a>
+                    <a href="privacy.html">Privacy Policy</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
